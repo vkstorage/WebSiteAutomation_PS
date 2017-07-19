@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [PS.COM_CompleteSuite]" allow-return-values="true">
+  <test name="All Test(failed)">
+    <classes>
+      <class name="com.phelps.ps.com.testsuite.SRP_PLPTestSuite">
+        <methods>
+          <!-- <include name="verifyButtonTextOfStorageTabTest"/> -->
+          <include name="verifyStorageUnitsTabTest" invocation-numbers="0"/>
+          <include name="verifyGetDirectionsFunctionalityTest"/>
+          <include name="createIndexFile"/>
+         <!--  <include name="verifyButtonTextOfVehicleTabTest"/> -->
+          <include name="verifyTypesOfSizeLinksTest" invocation-numbers="0"/>
+          <include name="verifySearchFunctionalityOnSRPPageTest"/>
+          <include name="verifyVehicleStorageDetailsTest"/>
+          <include name="verifySRPPageStorageTabTest"/>
+          <include name="loadEnvTestData"/>
+          <include name="verifyLocationsUrlTest" invocation-numbers="78"/>
+          <include name="printTestcaseNameBeforeMethod"/>
+          <!-- <include name="verifySearchFunctionalityOnHomePageTest"/> -->
+          <include name="verifyInvaidSearchOnHomeTest"/>
+          <include name="openBrowserBeforeClassTest"/>
+          <include name="printTestcaseNameAfterMethod"/>
+          <!-- <include name="verifySRPPageTest"/> -->
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.phelps.ps.com.testsuite.SRP_PLPTestSuite -->
+    </classes>
+  </test> <!-- All Test(failed) -->
+</suite> <!-- Failed suite [PS.COM_CompleteSuite] -->

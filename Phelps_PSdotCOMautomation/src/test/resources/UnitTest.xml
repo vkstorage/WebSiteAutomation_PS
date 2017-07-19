@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PS.COM_CompleteSuite" verbose="16"
+	allow-return-values="true">
+	<test name="All Test">
+		<classes>
+			<!-- <class name="com.phelps.ps.com.testsuite.HomeTestSuiteNotLoggedIn"> 
+				</class> -->
+			<!-- <methods> <include name="verifyStorageMadeImagesLinksTest" /> </methods> -->
+			<!-- <class name="com.phelps.ps.com.testsuite.HomeTestSuiteLoggedIn" /> -->
+
+			<!-- <class name="com.phelps.ps.com.testsuite.PendingHomeTestSuite" /> -->
+			<!-- <class name="com.phelps.ps.com.testsuite.ECIFlowTestSuite"> <methods> 
+				<include name="veriyECIFlow3Test" /> <include name="veriyECIFlow5Test" /> 
+				</methods> </class> -->
+
+			<!-- <class name="com.phelps.ps.com.testsuite.ECIRDPTestSuite" /> -->
+
+			<!-- <methods> <include name="verifyLinksOnECIPageTest" /> </methods> -->
+
+			<class
+				name="com.phelps.ps.com.testsuite.ECIReservationConfirmationTestSuite">
+				<!-- <methods>
+					<include name="verifyChangeReservationLinkTest"></include>
+					<include name="verifPackingTipsLinkTest"></include>
+					<include name="verifMovingSuppliesLinkTest"></include>
+				</methods> -->
+		
+
+			</class>
+			<!-- <class name="com.phelps.ps.com.testsuite.ECIReservationDetailsPageTestSuite" 
+				/> -->
+			<!-- <class name="com.phelps.ps.com.testsuite.Phase5TestSuite" /> -->
+			<!-- <class name="com.phelps.ps.com.testsuite.SRP_PLPTestSuite"> -->
+			<!-- <methods> <include name="verifyStorageUnitsTabTest"></include> </methods> 
+				</class> -->
+			<!-- <class name="com.phelps.ps.com.testsuite.Self_CareTestSuite"> -->
+			<!-- <methods> <include name="verifyInsuranceButtonIsNotVisibleForDTMCustomerTest"></include> 
+				</methods> -->
+
+			<!-- <class name="com.phelps.ps.com.testsuite.MelissaDataTestSuite" /> -->
+			<!-- <class name="com.phelps.ps.com.testsuite.CLPTestSuite"/> -->
+			<!-- <class name="com.phelps.ps.com.testsuite.SelfCareWC2TestSuite"> <methods> 
+				<include name="verifyPaymentFlowForNewChequeTest" /> <include name="verifyPaymentFlowAndSaveChequeTest" 
+				/> <include name="verifyPaymentUsingSavedCheckTest" /> <include name="verifyAutoPayPaymentFlowAndSaveDebitCardTest" 
+				/> <include name="verifyAutoPayPaymentFlowAlreadySavedDebitCardTest" /> <include 
+				name="verifyPaymentMethodNotSavedTwiceTest" /> </methods> </class> -->
+
+			<!-- <class name="com.phelps.ps.com.testsuite.PaymentTestSuite" /> -->
+			<!-- <class name="com.phelps.ps.com.testsuite.PropertyPhotosTestSuite"/> -->
+			<!-- <methods> <include name="verifyPLPPhotosTest" /> <include name="verifyPLPPhotosRDPTest" 
+				/> </methods> </class> -->
+			<!-- <class name="com.phelps.ps.com.mobiletestsuite.MobileReviewsTestSuite" 
+				/> -->
+			<!-- <class name="com.phelps.ps.com.testsuite.NovDecReleaseBugsTestSuite"> 
+				<methods> <include name="verifyBlogHomepageTest"/> </methods> </class> <class 
+				name="com.phelps.ps.com.testsuite.OctoberReleaseBugsTestSuite"/> -->
+			<!-- <class name="com.phelps.ps.com.testsuite.ReviewsTestSuite" /> -->
+			<!-- <class name="com.phelps.ps.com.testsuite.MovingSuppliesTestSuite"> 
+				<methods> <include name="verifyFunctionalityOfUpsellLinkOnResConfirmExpressCheckinTest" 
+				/> <include name="verifyVisibilityOfUpsellLinkOnResConfirmExpressCheckinTest" 
+				/> </methods> </class> <class name="com.phelps.ps.com.testsuite.KnowledgeGraphTestSuite" 
+				/> -->
+			<!-- <class name="com.phelps.ps.com.testsuite.ReservationCareTestSuite"> 
+				<methods> <include name="verifyReservationCarePageFooterLinksTest"></include> 
+				<include name="verifyChooseAnotherReservationECIDirectTest"></include> <include 
+				name="verifyChooseAnotherReservationECIReturn"></include> </methods> </class> -->
+
+		</classes>
+	</test>
+</suite>

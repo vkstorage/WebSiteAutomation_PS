@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PS.COM_CompleteSuite" verbose="16"
+	allow-return-values="true">
+	<test name="All Test">
+		<classes>
+
+			<class name="com.phelps.ps.com.testsuite.ECIFlowTestSuite" />
+			<!-- <class name="com.phelps.ps.com.testsuite.ECIRDPTestSuite" />
+			<class
+				name="com.phelps.ps.com.testsuite.ECIReservationConfirmationTestSuite" />
+			<class
+				name="com.phelps.ps.com.testsuite.ECIReservationDetailsPageTestSuite" />
+ -->
+			<!-- <class name="com.phelps.ps.com.testsuite.PaymentTestSuite" /> -->
+
+		</classes>
+	</test>
+</suite>

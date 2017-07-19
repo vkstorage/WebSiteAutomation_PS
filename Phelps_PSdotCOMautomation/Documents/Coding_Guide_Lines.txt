@@ -1,0 +1,31 @@
+
+
+Naming conventions to be used in this project
+
+1. Name of the element references
+   it should be element HTML type + relevant name + locator type
+   Example: text box to enter email by name -> tbEmailName
+    Label -> lb
+    textbox -> tb
+    Button -> btn
+    Options -> op
+    Check box -> cb
+    Drop down -> dd
+    Select List -> sl
+    Menu list -> ml
+    span -> spn
+    icon ->ico
+    Hyper-link ->hlnk 
+    Name-List ->nl
+    accordion -> acr
+    
+2. Test case names
+   
+   a. Should be some relevant phrase + Test
+   b. Starting letter should be in lower case
+   Example: Link present for forgot password -> forgotPasswordLinkPresentTest
+            
+   
+
+
+

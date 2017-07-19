@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PS.COM_CompleteSuite" verbose="16"
+	allow-return-values="true">
+	<test name="All Test">
+		<classes>
+		
+		   	
+				
+		 	<class name="com.phelps.ps.com.testsuite.HomeTestSuiteNotLoggedIn" />
+		 	
+		 	<!-- 
+		 			  
+			 <class name="com.phelps.ps.com.testsuite.HomeTestSuiteLoggedIn" />
+			 
+			  			  
+			 <class name="com.phelps.ps.com.testsuite.HomePageRefreshNotLoggedInTestSuite" /> 
+			 
+			 	 			
+			 <class name="com.phelps.ps.com.mobiletestsuite.FebRelease2017MobileBugsTestSuite" />
+			 
+			  <class name="com.phelps.ps.com.testsuite.HomePageRefreshNotLoggedInTestSuite" 
+			 
+			
+		
+				 	
+			 <class name="com.phelps.ps.com.testsuite.PendingHomeTestSuite" /> 
+			 
+			  
+			 
+		 
+			 <class name="com.phelps.ps.com.testsuite.PendingHomeRefreshTestSuite" /> 
+			 <class name="com.phelps.ps.com.testsuite.AccountCreationTestSuite" 
+				/> 
+			  <class name="com.phelps.ps.com.testsuite.ECIFlowTestSuite" />  
+			  <class name="com.phelps.ps.com.testsuite.ECIRDPTestSuite" /> 
+			 
+			    <class name="com.phelps.ps.com.testsuite.ECIReservationConfirmationTestSuite" ></class>
+				 
+			  <class name="com.phelps.ps.com.testsuite.ECIReservationDetailsPageTestSuite" 
+				/>  
+			  <class name="com.phelps.ps.com.testsuite.Self_CareTestSuite"> </class>  
+			 <class name="com.phelps.ps.com.testsuite.DemoTest"> </class> 
+			 <class name="com.phelps.ps.com.testsuite.ReservationCareTestSuite" 
+				/>
+ 
+			  <class name="com.phelps.ps.com.testsuite.SRP_PLPTestSuite" />  
+			 <class name="com.phelps.ps.com.testsuite.Phase5TestSuite" /> 
+			 <class name="com.phelps.ps.com.testsuite.AccountCreationTestSuite" 
+				/> 
+			 <class name="com.phelps.ps.com.testsuite.VideoLandingPagesTestSuite" 
+				/> 
+
+			 <class name="com.phelps.ps.com.mobiletestsuite.VideoLandingPageMobileTestSuite" 
+				/> 
+			
+			
+
+			 <class name="com.phelps.ps.com.testsuite.MelissaDataTestSuite" /> 
+			 <class name="com.phelps.ps.com.testsuite.PaymentTestSuite" /> 
+			 <class name="com.phelps.ps.com.testsuite.ReviewsTestSuite" /> 
+			 <class name="com.phelps.ps.com.testsuite.PropertyPhotosTestSuite" 
+				/> 
+			 <class name="com.phelps.ps.com.testsuite.MovingSuppliesTestSuite" 
+				/> 
+			 <class name="com.phelps.ps.com.testsuite.KnowledgeGraphTestSuite" 
+				/> 
+			 <class name="com.phelps.ps.com.testsuite.CLPTestSuite" /> 
+
+			
+
+			 <class name="com.phelps.ps.com.mobiletestsuite.MobileReviewsTestSuite" 
+				/> 
+			 <class name="com.phelps.ps.com.testsuite.ReservationDepositsTestSuite" 
+				/> 
+
+				 <class name="com.phelps.ps.com.mobiletestsuite.Dec16ReleaseMobileBugsTestSuite" 
+				/> 
+			 <class name="com.phelps.ps.com.testsuite.OctRelease16BugsTestSuite" 
+				/> 
+				 <class name="com.phelps.ps.com.testsuite.Nov2016ReleaseBugsTestSuite" 
+				/> 
+				 <class name="com.phelps.ps.com.testsuite.Dec16ReleaseBugsTestSuite" 
+				/> 
+				 <class name="com.phelps.ps.com.testsuite.FebRelease2017BugsTestSuite" /> 
+			 <class name="com.phelps.ps.com.mobiletestsuite.FebRelease2017MobileBugsTestSuite" 
+				/> 
+				 <class name="com.phelps.ps.com.testsuite.April2017ReleaseBugsTestSuite" 
+
+				/> 
+        -->
+		</classes>
+		
+	</test>
+</suite>

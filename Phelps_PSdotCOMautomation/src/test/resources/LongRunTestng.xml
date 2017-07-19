@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PS.COM_CompleteSuite" verbose="16"
+	allow-return-values="true">
+	<test name="All Test">
+		<classes>
+
+			<!-- <class
+				name="com.phelps.ps.com.testsuite.HomePageRefreshNotLoggedInTestSuite" /> -->
+
+
+
+			<class name="com.phelps.ps.com.testsuite.SRP_PLPTestSuite" />
+
+			<class name="com.phelps.ps.com.testsuite.VideoLandingPagesTestSuite" />
+			<!-- <class name="com.phelps.ps.com.mobiletestsuite.VideoLandingPageMobileTestSuite" 
+				/> -->
+<!-- <class name="com.phelps.ps.com.testsuite.PendingHomeRefreshTestSuite" />
+ -->
+
+
+			<!-- <class name="com.phelps.ps.com.testsuite.PropertyPhotosTestSuite" /> -->
+
+			<!-- <class name="com.phelps.ps.com.testsuite.CLPTestSuite" /> -->
+
+
+		</classes>
+	</test>
+</suite>

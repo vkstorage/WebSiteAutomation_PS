@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PS.COM_ECISuite" verbose="16">
+	<test name="PS.COM_ECITest">
+		<classes>
+			<class name="com.phelps.ps.com.testsuite.ECIDemoTestSuite">
+			</class>
+		</classes>
+	</test>
+</suite>
